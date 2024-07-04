@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.dashboard_cont {
+  height: 100vh;
+  width: 100%;
+  background-color: #0f0f14;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.main_bar {
+  height: 92vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.create_nft {
+  color: #fff;
+  height: auto;
+  width: 40%;
+  background-color: #181821;
+  border: 1px solid #282837;
+
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.file-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  border: 3px dashed #fff;
+  background: linear-gradient(#0f0f14 0 0) padding-box,
+    linear-gradient(90deg, #a80097 0%, #6900d2 100%) border-box;
+
+  border-radius: 10px;
+  background-color: #efe9f3;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.uploadText {
+  color: #f5f5f5;
+  font-size: 14px;
+  text-align: center;
+}
+.uploadSubText {
+  color: #878787;
+  font-size: 12px;
+}
+.dividerLine {
+  border-top: 1px solid #dadada;
+  margin-top: 20px;
+  width: 43%;
+}

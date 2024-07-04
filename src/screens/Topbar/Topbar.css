@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.topbar_cont {
+  position: fixed;
+  top: 0;
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  padding: 0 2%;
+}
+
+.box-shadow {
+  box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.1);
+}
+.connect_wallet_btn {
+  height: 7vh;
+  padding: 0 3%;
+
+  background-color: transparent;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.connect_wallet_btn:hover {
+  background-color: #000;
+  color: #fff;
+  box-shadow: 1px 1px 1px 1px #424359;
+}
+.connect_wallet_btn_dark {
+  background-color: #000;
+  color: #fff;
+}
+.logo_style {
+  font-size: 1.5rem;
+  color: #424359;
+  font-weight: 600;
+}
